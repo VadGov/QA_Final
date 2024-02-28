@@ -1,5 +1,6 @@
-from playwright.sync_api import  sync_playwright
+from playwright.sync_api import sync_playwright
 from pytest import fixture
+
 from pageObject.sportshop_PO import SportShop
 
 
@@ -9,10 +10,8 @@ def get_playwright():
         yield playwright
 
 
-
-
 @fixture()
-def desktop_Sportshop(get_playwright):
-    desktop_Sportshop = Sportshop(get_playwright)
-    yield desktop_Sportshop
-    desktop_Sportshop.close()
+def desktop_sportshop(get_playwright):
+    sportshop = SportShop(get_playwright)
+    yield sportshop
+    sportshop.close()
