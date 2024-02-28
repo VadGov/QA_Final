@@ -42,7 +42,6 @@ def test_e2e_begin(playwright: Playwright) -> None:
     # замовити
     page.locator("a[class='btn btn--blue']").click()
 
-    page.pause()
     # зворотній зв'язок
     page.locator("//a[@class='nav__link'][contains(text(),'Контакти')]").click()
     page.locator('[class="link link--dashed"]').click()
