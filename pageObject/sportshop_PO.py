@@ -21,8 +21,8 @@ class SportShop:
     def autorithation(self):
         self.page.get_by_role("button", name="Мій аккаунт").click()
         self.page.get_by_text("Авторизація / Реєстрація").click()
-        self.page.get_by_placeholder("Електронна пошта").fill("vadvadonik@gmail.com")
-        self.page.get_by_placeholder("Пароль").fill("175935")
+        self.page.get_by_placeholder("Електронна пошта").fill("dog71438@gmail.com")
+        self.page.get_by_placeholder("Пароль").fill("v123456789d")
         self.page.get_by_role("button", name="Увійти").click()
 
     def search(self):
@@ -46,14 +46,19 @@ class SportShop:
     def purchase_order(self):
         self.page.locator("a[class='btn btn--blue']").click()
 
-    def exit_acc(self):
-        self.page.locator('[class="acc__btn js-toggle-btn"]').click()
-        self.page.get_by_text("Вихід").click()
+    def delete_purchase(self):
+        self.page.locator(".cart__btn.js-toggle-btn").click()
+        self.page.locator("//button[@title='Видалити']//*[name()='svg']").click()
+        self.page.locator('[class="cart__back js-toggle-close"]').click()
 
     def feedback(self):
         self.page.locator("//a[@class='nav__link'][contains(text(),'Контакти')]").click()
         self.page.locator('[class="link link--dashed"]').click()
         self.page.locator("div[id='contact-form'] button[class='popup__close']").click()
+
+    def exit_acc(self):
+        self.page.locator('[class="acc__btn js-toggle-btn"]').click()
+        self.page.get_by_text("Вихід").click()
 
     def close(self):
         self.page.close()
