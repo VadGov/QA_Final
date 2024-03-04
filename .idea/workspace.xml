@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2037e734-89fb-44f0-983c-3e7c71131901" name="Changes" comment="rename def 2">
+    <list default="true" id="2037e734-89fb-44f0-983c-3e7c71131901" name="Changes" comment="rename lang">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObject/sportshop_PO.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObject/sportshop_PO.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709576849196</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="rename lang">
+      <option name="closed" value="true" />
+      <created>1709578089246</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709578089246</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +206,7 @@
     <MESSAGE value="rename" />
     <MESSAGE value="rename def" />
     <MESSAGE value="rename def 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename def 2" />
+    <MESSAGE value="rename lang" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename lang" />
   </component>
 </project>

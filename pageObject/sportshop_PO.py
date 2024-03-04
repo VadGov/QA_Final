@@ -10,7 +10,7 @@ class SportShop:
     def open_url(self, url: str):
         self.page.goto(url)
 
-    def change_lang_from_ua_on_rus_and_back(self):
+    def change_lang_ua_to_rus_and_back(self):
         self.page.get_by_role("button", name="Українська").click()
         self.page.get_by_text("Русский").click()
         # self.expect(page.get_by_text("СПОРТИВНОЕ ПИТАНИЕ")).to_be_visible()
