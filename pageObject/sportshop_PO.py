@@ -30,7 +30,7 @@ class SportShop:
         self.page.locator(
             "div[class='col-hidden col-md-visible col-xl-4 pull-xl-3'] button[class='search__btn']").click()
 
-    def filtr_whey_protein(self):
+    def choice_whey_protein_in_filtr(self):
         self.page.locator("(//div[@class='jq-selectbox__select-text'])[1]").click()
         self.page.locator("li:nth-child(60)").click()
         self.page.get_by_role("button", name="Пошук").click()

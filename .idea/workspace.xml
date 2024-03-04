@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2037e734-89fb-44f0-983c-3e7c71131901" name="Changes" comment="rename">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/test_Sportshop_e2e_PO.py" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/test_Sportshop_e2e_PO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObject/sportshop_PO.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObject/sportshop_PO.py" afterDir="false" />
-    </list>
+    <list default="true" id="2037e734-89fb-44f0-983c-3e7c71131901" name="Changes" comment="rename def" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709148634043</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="rename def">
+      <option name="closed" value="true" />
+      <created>1709576281503</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709576281503</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +186,7 @@
     <MESSAGE value="create e2e" />
     <MESSAGE value="all create" />
     <MESSAGE value="rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename" />
+    <MESSAGE value="rename def" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename def" />
   </component>
 </project>
