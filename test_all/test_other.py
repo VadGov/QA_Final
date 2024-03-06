@@ -5,7 +5,6 @@ from playwright.sync_api import Page, expect
 # Перевірка зміни адреси доставки користувача
 def test_change_address_delivery(page: Page) -> None:
     page.goto("https://sportshop.com.ua/")
-    # page.pause()
     page.get_by_role("button", name="Мій аккаунт").click()
     page.get_by_text("Авторизація / Реєстрація").click()
     page.get_by_placeholder("Електронна пошта").fill("dog71438@gmail.com")
