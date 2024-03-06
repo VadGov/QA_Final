@@ -64,3 +64,4 @@ class SportShop:
         self.page.close()
         self.context.close()
         self.browser.close()
+
