@@ -19,7 +19,7 @@ class SportShop:
         self.page.get_by_text("Українська").click()
         return self
 
-    def autorithation(self):
+    def authorization(self):
         self.page.get_by_role("button", name="Мій аккаунт").click()
         self.page.get_by_text("Авторизація / Реєстрація").click()
         self.page.get_by_placeholder("Електронна пошта").fill("dog71438@gmail.com")
@@ -29,7 +29,7 @@ class SportShop:
 
 
 
-    def autoriththation_invalid_data(self):
+    def authorization_invalid_data(self):
         self.page.get_by_role("button", name="Мій аккаунт").click()
         self.page.get_by_text("Авторизація / Реєстрація").click()
         self.page.get_by_placeholder("Електронна пошта").fill("іфвфв@adaad.сщь")
@@ -44,7 +44,7 @@ class SportShop:
             "div[class='col-hidden col-md-visible col-xl-4 pull-xl-3'] button[class='search__btn']").click()
         return self
 
-    def choice_whey_protein_in_filtr(self):
+    def choice_whey_protein_in_filter(self):
         self.page.locator("(//div[@class='jq-selectbox__select-text'])[1]").click()
         self.page.locator("li:nth-child(60)").click()
         self.page.get_by_role("button", name="Пошук").click()
